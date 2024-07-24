@@ -17,13 +17,13 @@ export default async function Hero() {
                 </a>
             </div>
             <div className="grid sm:place-content-center sm:text-center gap-2">
-            <h2 className="text-6xl max-w-5xl font-medium text-black md:text-7xl dark:text-gray-900">
-                    Not just a link-in-bio.
-                    <span className="animate-text-gradient inline-flex bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-gray-200 dark:via-gray-400 dark:to-gray-400">
-                         A full creator platform.
-                    </span>
+            <h2 className="text-6xl max-w-5xl font-medium text-black dark:text-gray-100 md:text-7xl dark:bg-gray-100 dark:bg-gradient-to-r bg-gradient-to-r from-gray-900 via-gray-900 to-gray-900 bg-[200%_auto] bg-clip-text leading-tight text-transparent">
+    Not just a link-in-bio.
+    <span className="animate-text-gradient inline-flex dark:from-gray-200 dark:via-gray-400 dark:to-gray-400 bg-gradient-to-r from-gray-900 via-gray-900 to-gray-900 bg-[200%_auto] bg-clip-text leading-tight text-transparent">
+        A full creator platform.
+    </span>
+</h2>
 
-                </h2>
                 <p className="md:text-base text-[13.5px] max-w-sm md:max-w-xl sm:text-center sm:mx-auto dark:text-gray-400 text-gray-600">Simplify and elevate your online presence effortlessly. one link connects to endless opportunities.</p>
             </div>
             <div className="sm:flex items-center sm:justify-center grid grid-cols-2 gap-2.5 mt-7">
