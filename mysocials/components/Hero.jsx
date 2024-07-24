@@ -17,8 +17,14 @@ export default async function Hero() {
                 </a>
             </div>
             <div className="grid sm:place-content-center sm:text-center gap-2">
-                <h2 className="text-3xl max-w-md sm:max-w-3xl md:max-w-4xl sm:text-4xl font-medium md:text-5xl text-gray-900 dark:text-gray-50"> Your Bio Link Does not have to be Boring 💁‍♀️ <span className="animate-text-gradient inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-900 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">Create interactive LINKS!!</span></h2>
-                <p className="md:text-base text-[13.5px] max-w-sm md:max-w-xl sm:text-center sm:mx-auto dark:text-gray-400 text-gray-600">Simplify and elevate your online presence effortlessly with Waymakr, where one link connects to endless opportunities.</p>
+            <h2 className="text-6xl max-w-5xl font-medium text-black md:text-7xl dark:text-gray-900">
+                    Not just a link-in-bio.
+                    <span className="animate-text-gradient inline-flex bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-gray-200 dark:via-gray-400 dark:to-gray-400">
+                         A full creator platform.
+                    </span>
+
+                </h2>
+                <p className="md:text-base text-[13.5px] max-w-sm md:max-w-xl sm:text-center sm:mx-auto dark:text-gray-400 text-gray-600">Simplify and elevate your online presence effortlessly. one link connects to endless opportunities.</p>
             </div>
             <div className="sm:flex items-center sm:justify-center grid grid-cols-2 gap-2.5 mt-7">
                 <Button asChild variant="pulseBtn"><Link href={!user ? "/sign-in" : "/dashboard/manage"}>Get Started</Link></Button>

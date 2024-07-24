@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { currentUser } from "@clerk/nextjs";
 import Logo from "./Logo";
+import { ModeToggle } from "./ModeToggle";
 
 export default async function Header() {
     const user = await currentUser();
@@ -11,6 +12,7 @@ export default async function Header() {
                 <Logo />
             </div>
             <div className="flex gap-3 items-center">
+                <ModeToggle />
                 <Button asChild variant="pulseBtn"><Link href={!user ? "/sign-in" : "/dashboard/manage"}>{!user ? "Login" : "Dashboard"}</Link></Button>
             </div>
         </header>
