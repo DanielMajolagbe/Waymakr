@@ -12,7 +12,7 @@ export default async function Hero() {
             <div className="border mb-4 w-fit sm:mx-auto py-1.5 px-3 rounded-full bg-background">
                 <a className="hover:underline" href="">
                     <p className="text-xs flex items-center justify-center gap-1">
-                        ✨ Make a Donation<ArrowRight className="h-4 w-4" />
+                        💎 Explore Premium<ArrowRight className="h-4 w-4" />
                     </p>
                 </a>
             </div>
