@@ -29,7 +29,7 @@ export default function UserPageLink() {
         <div className="px-6 md:px-20 lg:px-32">
             {!username ? (
                 <Alert className="p-3">
-                    <AlertTitle className="text-sm"><span>✨</span> Heads up <span>✨</span></AlertTitle>
+                    <AlertTitle className="text-sm"><span></span> Hey Buddy👋<span></span></AlertTitle>
                     <AlertDescription className="text-xs text-gray-600 dark:text-gray-400">
                         Scroll down to publish your page to get your personalized page link!
                     </AlertDescription>

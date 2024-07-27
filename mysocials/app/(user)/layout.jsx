@@ -8,7 +8,7 @@ export default function Layout({ children }) {
             {children}
             <div className="mt-20 mb-8 grid place-content-center text-center">
                 <Logo />
-                <p className="text-xs">Made with ❤️ by <a href="https://github.com/r2hu1">r2hu1</a></p>
+                <p className="text-xs">Created by by <a href="https://github.com/DanielMajolagbe">D⚡</a></p>
             </div>
         </main>
     )
