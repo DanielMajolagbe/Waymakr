@@ -1,4 +1,4 @@
-"use client";  // Use 'client' directive instead of 'server' for client-side functionality
+"use client";
 
 import { ClerkLoading, SignOutButton, UserButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
@@ -11,7 +11,6 @@ export default function Header() {
     const router = useRouter();
 
     const handleSignOut = () => {
-        // Redirect to home page after sign-out
         router.push('/');
     };
 
