@@ -37,7 +37,7 @@ export default function UserPageLink() {
             ) : (
                 <div>
                   <Alert className="p-3">
-                    <AlertTitle className="text-sm"><span>✨</span> Your page is ready <span>✨</span></AlertTitle>
+                    <AlertTitle className="text-sm"><span>🎉</span> Your page is ready <span>🎉 </span></AlertTitle>
                     <AlertDescription className="text-xs text-gray-600 dark:text-gray-400 hover:underline">
                         <Link target="_blank" href={`https://${location.host}/${username}`}>https://{location.host}/{username}</Link>
                     </AlertDescription>
