@@ -11,8 +11,8 @@ const poppins = Poppins({
 });
 export const metadata = {
   title: {
-    default: 'WayMakrr',
-    template: '%s | WayMakr',
+    default: 'Loop',
+    template: '%s | Loop',
   },
   description: 'Open-Source link in bio tool for content creaters, developers and enthusiasts.',
 }
