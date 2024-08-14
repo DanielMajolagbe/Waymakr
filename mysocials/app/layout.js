@@ -3,19 +3,44 @@ import './globals.css';
 import { ThemeProvider } from "@/components/utils/theme-provider";
 import { ClerkProvider } from '@clerk/nextjs';
 import NextTopLoader from 'nextjs-toploader';
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/toaster";
 
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
+
 export const metadata = {
   title: {
     default: 'Loop',
     template: '%s | Loop',
   },
-  description: 'Open-Source link in bio tool for content creaters, developers and enthusiasts.',
-}
+  description: 'Open-Source link in bio tool for content creators, developers, and enthusiasts.',
+  openGraph: {
+    title: 'Loop',
+    description: 'Open-Source link in bio tool for content creators, developers, and enthusiasts.',
+    url: 'https://loopp.vercel.app', // Replace with your actual site URL
+    siteName: 'Loop',
+    images: [
+      {
+        url: 'https://drive.google.com/file/d/1LGI6mK9iFaQl_mIR0VMgY4V6r9yY2n7u/view?usp=drive_link', // Replace with the URL of your preview image
+        width: 1200,
+        height: 630,
+        alt: 'Loop',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Loop',
+    description: 'Open-Source link in bio tool for content creators, developers, and enthusiasts.',
+    images: [
+      'https://drive.google.com/file/d/1LGI6mK9iFaQl_mIR0VMgY4V6r9yY2n7u/view?usp=drive_link', // Replace with the URL of your preview image
+    ],
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
