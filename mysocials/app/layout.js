@@ -15,10 +15,10 @@ export const metadata = {
     default: 'Loop',
     template: '%s | Loop',
   },
-  description: 'Open-Source link in bio tool for content creators, developers, and enthusiasts.',
+  description: 'Open-Source link in bio tool for creators.',
   openGraph: {
     title: 'Loop',
-    description: 'Open-Source link in bio tool for content creators, developers, and enthusiasts.',
+    description: 'Open-Source link in bio tool for creators.',
     url: 'https://loopp.vercel.app', // Replace with your actual site URL
     siteName: 'Loop',
     images: [
