@@ -4,7 +4,7 @@ export default function Logo() {
     return (
         <Link href="/" className="select-none">
           <h1 className="text-2xl font-bold dark:text-white">
-          <span className="text-black dark:text-white">Loop</span>.io<span style={{color: "black"}}></span></h1>
+          <span className="text-black dark:text-white">Loop</span>.<span style={{color: "black"}}></span></h1>
         </Link>
     )
 }
